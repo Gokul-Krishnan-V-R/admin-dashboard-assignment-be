@@ -1,7 +1,6 @@
 import express, { Request, Response } from 'express'
 import { z } from 'zod'
 import { client } from './lib/prisma'
-import userMiddleware from './middlewares/userMiddleware';
 const bcrypt = require ("bcrypt");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
