@@ -154,7 +154,7 @@ app.post("/jobs", async (req: AuthRequest, res: Response) => {
             //@ts-ignore
             data: {
                 ...parsedBody.data,
-                adminId: "80965ba1-0fa9-46e4-b332-8df85bc541e6", // Assign job to authenticated admin
+                adminId: "2258ce03-5d7c-4fdd-a229-7793a5475fc0", // Assign job to authenticated admin
             },
         });
 
