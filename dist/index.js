@@ -35,10 +35,7 @@ app.use(express_1.default.json());
 // 	res.sendStatus(200);
 //   });
 app.get('/', (_req, res) => {
-    return res.send('Express Typescript on Vercel');
-});
-app.get('/ping', (_req, res) => {
-    return res.send('pong 🏓');
+    return res.send('Hello from backend server');
 });
 const JWT_SECRET_USER = "TGFI*EAVBG8YWO!Ad%@#ladjsvahb#!&^ka1237474@kv";
 // Schema for admin registration and login
